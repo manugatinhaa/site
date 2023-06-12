@@ -1,24 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>flor roxa</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reeset.css">
 </head>
+
 <body>
-    <header> <class="cabeçalho">
+    <header class="cabeçalho"> 
         <div class="container">
-        <span class=”cabeçalho__menu-hamburguer”></span>
-        <img src="logo" alt="logo">
+            <input type="checkbox" id="menu" class="container_botao">
+            <label for="menu">
+                <span class=”cabeçalho__menu-hamburguer”></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu_titulo">Categorias</li>
+                <li class="lista_item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista_item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista_item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista_item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista_item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+        <img src="logo" alt="Logo Flor roxa container__imagem">
         </div>
         <div class="container">
-        <a href="#"><img src="favoritos" alt="Meus favoritos"></a>
-        <a href="#"><img src="compras" alt="Carrinho de Compras"></a>
-        <a href="#"><img src="usuario" alt="Meu Perfil"></a>
+        <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+        <a href="#"><img src="img/Compras.svg" alt="Carrinho de Compras" class="container__imagem"></a>
+        <a href="#"><img src="img/Usuario.svg" alt="Meu Perfil" class="container__imagem"></a>
     </div>
     </header>
 
 </body>
+
 </html>
